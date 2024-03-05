@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: rgba(48, 48, 48, 255); color: white">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Web App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="centre">
+      <div class="container">
+        <div class="text">
+          <h1 id="h1">Check the Weather Forecast</h1>
+        </div>
+        <form id="form">
+          <input type="text" id="search" placeholder="Enter City Name" />
+          <button type="button" id="button1">Search</button>
+        </form>
+        <div class="centre1">
+          <div class="result" id="result">
+            <div
+              class="city"
+              id="place"
+              style="
+                font-size: 40px;
+                line-height: 1;
+                letter-spacing: 0.05em;
+                font-weight: 100;
+                font-style: italic;
+              "
+            ></div>
+            <!-- <div class="city" id="place">
+            </div> -->
+            <div class="temp" id="tempe"></div>
+            <div class="wind" id="windspeed"></div>
+            <div class="weather" id="discription"></div>
+            <!-- <div class="img">
+                    <img height="90px" src="icons/clear.svg" alt="">
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
